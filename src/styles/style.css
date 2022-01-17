@@ -1,0 +1,34 @@
+body {
+    background-color: cadetblue;
+}
+
+h1 {
+    font-size: 64px;
+    text-align: center;
+}
+
+.gerandoImagens {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.gerandoImagens li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gerandoImagens li button {
+    background-color: coral;
+    width: 85%;
+    height: 30px;
+    font-weight: 600;
+    border: none;
+}
+
+.gerandoImagens li img {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
